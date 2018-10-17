@@ -1,4 +1,4 @@
-FROM dclong/lubuntu-scala:18.04
+FROM dclong/lubuntu-jdk
 
 RUN add-apt-repository ppa:mmk2410/intellij-idea \
     && apt-get update \
