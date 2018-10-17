@@ -1,0 +1,137 @@
+2018-09-16 00:40:43,489 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-09-16 00:40:43,517 [     28]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-182.4323.46, 04 Sep 2018 01:43) 
+2018-09-16 00:40:43,517 [     28]   INFO -        #com.intellij.idea.Main - OS: Linux (4.15.0-29-generic, amd64) 
+2018-09-16 00:40:43,517 [     28]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1248-b8 (JetBrains s.r.o) 
+2018-09-16 00:40:43,517 [     28]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b8 (OpenJDK 64-Bit Server VM) 
+2018-09-16 00:40:43,519 [     30]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/dclong/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/dclong/java_error_in_IDEA.hprof -Didea.paths.selector=IdeaIC2018.2 -Djb.vmOptionsFile=/opt/intellij-idea-community/bin/idea64.vmoptions -Didea.platform.prefix=Idea -Didea.jre.check=true 
+2018-09-16 00:40:43,519 [     30]   INFO -        #com.intellij.idea.Main - ext: /opt/intellij-idea-community/jre64/lib/ext: [sunec.jar, jaccess.jar, sunjce_provider.jar, meta-index, sunpkcs11.jar, cldrdata.jar, nashorn.jar, zipfs.jar, localedata.jar, jfxrt.jar, dnsns.jar] 
+2018-09-16 00:40:43,519 [     30]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2018-09-16 00:40:43,536 [     47]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 17 ms 
+2018-09-16 00:40:46,781 [   3292]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2018-09-16 00:40:46,781 [   3292]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2018-09-16 00:40:50,045 [   6556]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2018-09-16 00:41:01,264 [  17775]   INFO - tellij.openapi.util.IconLoader - replace '/nodes/newFolder.png' with 'AllIcons.Nodes.Folder' 
+2018-09-16 00:41:01,708 [  18219]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-09-16 00:41:33,687 [  50198]   INFO - .intellij.util.io.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/pluginManager/?action=download&id=org.intellij.scala&build=IC-182.4323.46&uuid=82a18344-3dd1-479e-8b33-8a5297e8d110 
+2018-09-16 00:41:36,910 [  53421]   INFO - .intellij.util.io.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/pluginManager/?action=download&id=IdeaVIM&build=IC-182.4323.46&uuid=82a18344-3dd1-479e-8b33-8a5297e8d110 
+2018-09-16 00:41:47,041 [  63552]   INFO - .intellij.util.io.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/pluginManager/?action=download&id=training&build=IC-182.4323.46&uuid=82a18344-3dd1-479e-8b33-8a5297e8d110 
+2018-09-16 00:42:54,511 [ 131022]   INFO - .intellij.idea.IdeaApplication - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@63c2118a[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@28279a7 
+2018-09-16 00:42:54,529 [ 131040]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2018-09-16 00:42:54,735 [ 131246]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-09-16 00:42:54,974 [ 131485]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 330 ms 
+2018-09-16 00:42:54,975 [ 131486]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.3.1.2), Ant Support (1.0), Bytecode Viewer (0.1), CVS Integration (11), Copyright (8.1), Coverage (182.4323.46), Eclipse Integration (3.0), EditorConfig (182.4323.46), Git Integration (8.1), GitHub (182.4323.46), Gradle (182.4323.46), Groovy (9.0), I18n for Java (182.4323.46), IDEA CORE (182.4323.46), IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (182.4323.46), Java Stream Debugger (182.4323.46), JavaFX (1.0), Kotlin (1.2.51-release-IJ2018.2-1), Maven Integration (182.4323.46), Mercurial Integration (10.0), Plugin DevKit (1.0), Properties Support (182.4323.46), Settings Repository (182.4323.46), Smali Support (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), UI Designer (182.4323.46), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (182.4323.46) 
+2018-09-16 00:42:54,975 [ 131486]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: IDE Features Trainer (0.8.62), IdeaVim (0.49), Scala (2018.2.11) 
+2018-09-16 00:42:55,993 [ 132504]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/dclong/.IdeaIC2018.2/system/caches/names.dat' does not exist 
+2018-09-16 00:42:55,995 [ 132506]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2018-09-16 00:42:56,025 [ 132536]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/intellij-idea-community/bin/fsnotifier64 
+2018-09-16 00:42:56,026 [ 132537]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-09-16 00:42:56,982 [ 133493]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2018-09-16 00:42:56,982 [ 133493]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2018-09-16 00:42:57,083 [ 133594]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2018-09-16 00:42:57,222 [ 133733]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-09-16 00:42:57,271 [ 133782]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-09-16 00:42:57,334 [ 133845]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-09-16 00:42:57,524 [ 134035]   INFO - j.ide.ui.OptionsTopHitProvider - 371 ms spent to cache options in application 
+2018-09-16 00:42:57,524 [ 134035]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 371 ms 
+2018-09-16 00:42:57,585 [ 134096]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:190, number of extensions:47 
+2018-09-16 00:42:57,840 [ 134351]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:254 
+2018-09-16 00:42:57,958 [ 134469]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:113, number of extensions:69 
+2018-09-16 00:42:57,958 [ 134469]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2018-09-16 00:42:58,850 [ 135361]   INFO - pi.util.registry.RegistryValue - Registry value 'SBT.system.in.process' has changed to 'true" 
+2018-09-16 00:42:59,136 [ 135647]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:XML,Properties,Scala,CLASS,kotlin_builtins,KJSM,JAVA,sbt,HTML,Kotlin,Groovy 
+2018-09-16 00:42:59,496 [ 136007]   INFO - plication.impl.ApplicationImpl - 97 application components initialized in 4859ms 
+2018-09-16 00:42:59,506 [ 136017]   INFO - .intellij.idea.IdeaApplication - App initialization took 136869 ms 
+2018-09-16 00:42:59,572 [ 136083]   INFO - pl$FileIndexDataInitialization - Initialization done:1731 
+2018-09-16 00:42:59,662 [ 136173]   INFO - exImpl$StubIndexInitialization - Initialization done:90 
+2018-09-16 00:43:00,339 [ 136850]   INFO - j.ide.ui.OptionsTopHitProvider - 427 ms spent on EDT to cache options in application 
+2018-09-16 00:43:00,547 [ 137058]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 3021 ms 
+2018-09-16 00:43:02,034 [ 138545]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 1486 ms 
+2018-09-16 00:43:02,413 [ 138924]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 378 ms 
+2018-09-16 00:43:02,414 [ 138925]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 18-9-16 上午12:41) 
+2018-09-16 00:43:02,419 [ 138930]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 6 ms 
+2018-09-16 00:43:02,940 [ 139451]   INFO - ellij.project.impl.ProjectImpl - 23 project components initialized in 314 ms 
+2018-09-16 00:43:03,016 [ 139527]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-09-16 00:43:03,735 [ 140246]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2018-09-16 00:43:04,280 [ 140791]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2018-09-16 00:43:04,653 [ 141164]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2018-09-16 00:43:04,995 [ 141506]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2018-09-16 00:43:05,322 [ 141833]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2018-09-16 00:43:05,715 [ 142226]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2018-09-16 00:43:06,045 [ 142556]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2018-09-16 00:43:06,567 [ 143078]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2018-09-16 00:43:06,879 [ 143390]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2018-09-16 00:43:07,203 [ 143714]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-09-16 00:43:07,680 [ 144191]   INFO - dea.updater.SdkComponentSource - File /home/dclong/.android/repositories.cfg could not be loaded. 
+2018-09-16 00:45:03,286 [ 259797]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-09-16 00:45:03,287 [ 259798]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-09-16 00:45:03,287 [ 259798]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-09-16 00:45:03,307 [ 259818]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-09-16 00:45:03,309 [ 259820]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-09-16 00:45:03,312 [ 259823]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2018-09-16 00:45:03,323 [ 259834]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-09-16 00:45:03,355 [ 259866]  ERROR - ij.components.ComponentManager - null 
+java.lang.NullPointerException
+	at com.maddyhome.idea.vim.EventFacade.getTypedAction(EventFacade.java:125)
+	at com.maddyhome.idea.vim.EventFacade.restoreTypedActionHandler(EventFacade.java:69)
+	at com.maddyhome.idea.vim.VimPlugin.disposeComponent(VimPlugin.java:183)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.disposeComponents(ComponentManagerImpl.java:136)
+	at com.intellij.openapi.application.impl.ApplicationImpl.dispose(ApplicationImpl.java:494)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:48)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:44)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:138)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:107)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:182)
+	at com.intellij.openapi.util.objectTree.ObjectNode.execute(ObjectNode.java:107)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeAll(ObjectTree.java:151)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:129)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:125)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$disposeSelf$7(ApplicationImpl.java:253)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1038)
+	at com.intellij.openapi.application.impl.ApplicationImpl.disposeSelf(ApplicationImpl.java:253)
+	at com.intellij.openapi.application.impl.ApplicationImpl.doExit(ApplicationImpl.java:800)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:770)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:759)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:755)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:722)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:717)
+	at com.intellij.openapi.wm.impl.welcomeScreen.WelcomeFrame$3.windowClosing(WelcomeFrame.java:123)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2054)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:305)
+	at java.awt.Window.processEvent(Window.java:2013)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:781)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:722)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:382)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-09-16 00:45:03,358 [ 259869]  ERROR - ij.components.ComponentManager - IntelliJ IDEA 2018.2.3  Build #IC-182.4323.46 
+2018-09-16 00:45:03,359 [ 259870]  ERROR - ij.components.ComponentManager - JDK: 1.8.0_152-release 
+2018-09-16 00:45:03,359 [ 259870]  ERROR - ij.components.ComponentManager - VM: OpenJDK 64-Bit Server VM 
+2018-09-16 00:45:03,359 [ 259870]  ERROR - ij.components.ComponentManager - Vendor: JetBrains s.r.o 
+2018-09-16 00:45:03,359 [ 259870]  ERROR - ij.components.ComponentManager - OS: Linux 
+2018-09-16 00:45:03,359 [ 259870]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-09-16 00:45:03,361 [ 259872]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-09-16 00:45:03,363 [ 259874]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-09-16 00:45:03,366 [ 259877]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
