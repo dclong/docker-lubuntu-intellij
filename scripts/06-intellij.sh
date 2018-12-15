@@ -7,7 +7,7 @@ fi
 
 if [[ ! -f $HOME/.m2/settings.xml ]]; then
     mkdir -p $HOME/.m2
-    mv /settings/settings.xml $HOME/.m2
+    # mv /settings/settings.xml $HOME/.m2
     chown -R $DOCKER_USER:$DOCKER_GROUP $HOME/.m2
 fi
 
