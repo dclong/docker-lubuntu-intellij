@@ -26,7 +26,7 @@ Additional Software: Firefox
 ## Command to Pull from DockerHub
 
 ```
-docker pull dclong/lubuntu-intellij
+docker pull dclong/lubuntu-intellij:18.10
 ```
 
 ## Launch a Container
