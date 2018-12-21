@@ -40,8 +40,8 @@ docker run -d \
     -e DOCKER_USER_ID=`id -u` \
     -e DOCKER_USER=`id -un` \
     -e DOCKER_PASSWORD=`id -un` \
-    -v /workdir:/workdir \
-    -v /home:/home_host \
+    -v `pwd`:/workdir \
+    -v `dirname $HOME`:/home_host \
     --cap-add=SYS_PTRACE \
     dclong/lubuntu-intellij:18.10
 ```
@@ -54,9 +54,9 @@ docker run -d \
     -e DOCKER_USER_ID=`id -u` \
     -e DOCKER_USER=`id -un` \
     -e DOCKER_PASSWORD=`id -un` \
-    -v /workdir:/workdir \
     -v /path_to_IdeaIC2018.2:/settings/IdeaIC2018.2 \
-    -v /home:/home_host \
+    -v `pwd`:/workdir \
+    -v `dirname $HOME`:/home_host \
     --cap-add=SYS_PTRACE \
     dclong/lubuntu-intellij:18.10
 ```
