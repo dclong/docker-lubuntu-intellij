@@ -34,6 +34,7 @@ docker pull dclong/lubuntu-intellij
 ### Linux/Unix
 ```
 docker run -d \
+    --name lubuntu-intellij \
     --log-opt max-size=50m \
     -p 4000:4000 \
     -e DOCKER_USER_ID=`id -u` \
@@ -47,6 +48,7 @@ docker run -d \
 Or if you want to use a customized configuration for IntelliJ IDEA.
 ```
 docker run -d \
+    --name lubuntu-intellij \
     --log-opt max-size=50m \
     -p 4000:4000 \
     -e DOCKER_USER_ID=`id -u` \
