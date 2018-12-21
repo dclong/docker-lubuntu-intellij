@@ -4,7 +4,7 @@ IntelliJ IDEA in Docker
 
 ## Detailed Information
 
-OS: Ubuntu 18.04
+OS: Ubuntu 18.10
 
 Desktop Environment: LXQt
 
@@ -43,7 +43,7 @@ docker run -d \
     -v /workdir:/workdir \
     -v /home:/home_host \
     --cap-add=SYS_PTRACE \
-    dclong/lubuntu-intellij
+    dclong/lubuntu-intellij:18.10
 ```
 Or if you want to use a customized configuration for IntelliJ IDEA.
 ```
@@ -58,7 +58,7 @@ docker run -d \
     -v /path_to_IdeaIC2018.2:/settings/IdeaIC2018.2 \
     -v /home:/home_host \
     --cap-add=SYS_PTRACE \
-    dclong/lubuntu-intellij
+    dclong/lubuntu-intellij:18.10
 ```
 
 ### Windows 
