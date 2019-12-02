@@ -25,7 +25,7 @@ docker run -d \
     -v `pwd`:/workdir \
     -v `dirname $HOME`:/home_host \
     --cap-add=SYS_PTRACE \
-    dclong/lubuntu-intellij /scripts/sys/init.sh
+    dclong/lubuntu-intellij:18.10 /scripts/sys/init.sh
 ```
 The following command does the same as the above one 
 except that it limits the use of CPU and memory.
@@ -43,7 +43,7 @@ docker run -d \
     -v `pwd`:/workdir \
     -v `dirname $HOME`:/home_host \
     --cap-add=SYS_PTRACE \
-    dclong/lubuntu-intellij /scripts/sys/init.sh
+    dclong/lubuntu-intellij:18.10 /scripts/sys/init.sh
 ```
 A default user `dclong` with password `dclong` is used if not specified when running the docker image.
 
