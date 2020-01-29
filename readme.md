@@ -1,6 +1,6 @@
 # dclong/lubuntu-intellij [@DockerHub](https://hub.docker.com/r/dclong/lubuntu-intellij/) | [@GitHub](https://github.com/dclong/docker-lubuntu-intellij)
 
-IntelliJ IDEA in Docker
+IntelliJ IDEA in Docker.
 
 ## Prerequisite
 You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
